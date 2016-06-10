@@ -57,4 +57,4 @@ It takes an options object with three mandatory properties:
 the schemata associated with the given `<schemaSpec>` (schemaSpecName is the value of the `@ident` attribute of the `<schemaSpec>` in concern). The returned ValidationReport must be an object with a boolean `isValid` property and a `getErrors()` method returning an array of validation errors. The returned validation errors are required to have a `toString()` method returning the error message to get displayed.
 
 See https://github.com/tido/mei-customization/blob/master/test/run.js for a sample implementation
-using Jade as a template engine and the `tido-mei-validation` package for validation.
+using [Preact](https://github.com/developit/preact) to process JSX components as templates and the [tido-mei-validation](https://github.com/tido/mei-validation) package for validation.
